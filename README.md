@@ -1,5 +1,5 @@
 # 周易ZhouYi
-[演示地址](https://zombielive.github.io/ZhouYi/)
+[演示地址](https://gofeeling.github.io/zhanbu/)
 
 ## 简介
 一个快速算卦的小工具，将机械化的算卦过程程序化，仅有逻辑部分`zhouyi.js`和数据部分`data.js`。
@@ -22,4 +22,4 @@
 2. 吉凶由人说。请保持必要的仪式感，明确需要占卦的事情再根据卦辞自己解读，本站仅提供周易的原文及翻译，并不解卦。</li>
 3. 命越占越薄。请谨慎使用，原则上一事一占，不要以玩乐的心态随意测试。</li>
 
-[演示地址](https://zombielive.github.io/ZhouYi/)
+[演示地址](https://gofeeling.github.io/zhanbu/)
