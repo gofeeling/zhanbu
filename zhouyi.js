@@ -11,7 +11,24 @@ function zhouYi(sixYao){  //参数sixYao为只含6、7、8、9的六项数组
 	}else{
 		//生成本卦，随机为6、7、8、9的6爻
 		for (var i = 0; i < 6; i++) {
-			benGua.push(Math.round(Math.random()*3+6))
+			var start = 49;	
+			var x_num = 0;
+			var y_num = 0;
+			var x_mod = 0;
+			var y_mod = 0;
+			
+			for (var j=0; i<3; j++) {
+				x_num = Math.floor(Math.random()*start) + 1;
+				y_num = start - x_num;
+				x_mod = (x_num - 1) % 4;
+				y_mod = y_num % 4; 
+				if (x_mod == 0) x_mod = 4;
+				if (y_mod == 0) y_mod = 4;
+
+				start = start - x_mod - y_mod - 1;
+			}
+
+			benGua.push(start);
 		}
 	}
 	//变卦
